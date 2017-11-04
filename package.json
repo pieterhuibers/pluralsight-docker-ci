@@ -8,7 +8,10 @@
 	"dependencies" : {
 		"express" : "*",
 		"pug" : "2.0.0-alpha6",
-		"mocha" : "*",
+		"mocha" : "3.*.*",
 		"supertest" : "*"
+	},
+	"scripts" : {
+		"test" : "mocha"
 	}
 }
