@@ -35,11 +35,11 @@ jobs:
         
       # run tests!
       - run:
-        name: Test
-        command: npm test
+          name: Test
+          command: npm test
 
       - run:
-        name: Deploy
-        command: curl www.google.com
+          name: Deploy
+          command: curl www.google.com
 
 
