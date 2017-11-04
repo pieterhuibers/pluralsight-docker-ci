@@ -38,6 +38,8 @@ jobs:
         name: Test
         command: npm test
 
-      - run: $DOCKER_HUB_TRIGGERR
+      - run:
+        name: Deploy
+        command: curl www.google.com
 
 
