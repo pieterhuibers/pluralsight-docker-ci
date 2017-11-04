@@ -38,6 +38,6 @@ jobs:
         name: Test
         command: npm test
 
-      - run:
-        name: Deploy
-        command: $DOCKER_HUB_TRIGGERR
+      - run: $DOCKER_HUB_TRIGGERR
+
+
