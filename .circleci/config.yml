@@ -40,6 +40,6 @@ jobs:
 
       - run:
           name: Deploy
-          command: curl www.google.com
+          command: $DOCKER_HUB_TRIGGERR
 
 
